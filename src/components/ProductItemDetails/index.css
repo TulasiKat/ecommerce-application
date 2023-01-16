@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.product-item-details-container {
+  padding: 20px;
+}
+.top-part {
+  display: flex;
+  width: 95%;
+}
+.main-image-top {
+  width: 50%;
+}
+.item-text-part {
+  padding: 20px;
+  width: 50%;
+}
+.price {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+}
+.rating-line {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+.rating-box {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px;
+  border-radius: 12px;
+  width: 55px;
+  height: 35px;
+  margin-right: 20px;
+  font-weight: 600;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.plus-minus-line {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+}
+.plus-minus-button {
+}
+.count {
+  font-weight: bold;
+}
+.add-to-cart-button {
+  color: white;
+  background-color: #3b82f6;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+.similar-items-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.continue-shopping-button {
+  color: white;
+  background-color: #3b82f6;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+.star-image {
+  height: 15px;
+  width: 15px;
+}
+.icon {
+  border: none;
+}
